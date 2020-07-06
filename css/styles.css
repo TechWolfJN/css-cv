@@ -1,0 +1,131 @@
+/* HTML tags */
+body {
+  margin: 0; /*moves the body margin to 0 pixels px not needed to indicate pixels*/
+  text-align: center; /* centers the text */
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+h1 {
+  color: #66bfbf;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem; /* 100% is 16px. rem points to the root size*/
+  margin: 50px auto 0 auto; /*moves the body margin to 0 pixels. px not needed to indicate pixels*/
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.5rem; /* 40px / 16 = 2.5rem */
+  font-family: 'Montserrat', sans-serif; /* a style of text */
+  font-weight: normal; /* weight of font */
+  padding-bottom: 10px; /* adds 10px of padding to all sides*/
+}
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999e;
+}
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #eaf6f6;
+  border-width: 10px;
+  margin: 100px auto; /* adds 100px on top and bottom, adds auto to left and right*/
+  width: 5%;
+}
+p {
+    line-height: 2; /* adds line height of 2 to space the paragraphs out more for readability*/
+}
+a {
+  color: #11999e;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+
+/* HTML classes */
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+.skill-row {
+  margin: 100px auto;
+  text-align: left;
+  width: 50%;
+}
+.pro {
+  text-decoration: underline; /* adds underline to the pro in programmer*/
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+/* Pictures */
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 500px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 500px;
+  bottom: 300px;
+}
+.Profile-img {
+  width: 15%;
+}
+.HTML-CSS {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+.Python-Java-Cplusplus {
+  width: 40%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* Button code retrived from https://css3buttongenerator.com/ */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
